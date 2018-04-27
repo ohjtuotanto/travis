@@ -15,6 +15,9 @@ public class MyAppTest {
     	assertEquals("{\"id\":}", (new MyController()).test(""));
     }
     
-    
+    @Test
+    public void testTest2(){
+    	assertEquals("{\"id\":test}", (new MyController()).test("test"));
+    }
     
 }
